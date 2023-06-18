@@ -1,0 +1,54 @@
+.mainButtons{
+    width: 70%;
+    height: 300px;
+    border: 10px dashed black;
+    background-color: #AAAAAA;
+    margin: 20px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.mainButtons:hover{
+    width: 70%;
+    height: 300px;
+    border: 10px dashed black;
+    background-color: #888;
+    margin: 20px;
+    position: relative;
+}
+
+.mainButtonImage{
+    padding: 4px;
+    height: 100%;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.levelName{
+    position: absolute;
+    top: -30px;
+    right: 200px;
+    font-size: 120px;
+}
+
+.blackText{
+    color: black;
+}
+
+.backButton{
+    height: 40px;
+    width: 150px;
+    border-radius: 10%;
+    border: 4px solid black;
+    background-color: #00f;
+    transition: 0.4s;
+}
+
+.backButton:hover{
+    background-color: #00a;
+}
