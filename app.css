@@ -53,13 +53,13 @@
 }
 
 .levelName{
-    font-size: 72px;
+    font-size: 64px;
     text-decoration: none;
 }
 
 nav {
     border-bottom: 2px solid black;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .nav ol {
