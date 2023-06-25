@@ -29,13 +29,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.levelName{
-    position: absolute;
-    top: -30px;
-    right: 200px;
-    font-size: 120px;
-}
-
 .blackText{
     color: black;
 }
@@ -59,7 +52,30 @@
     font-size: xxx-large;
 }
 
-.notTopII{
-    font-size: 120px;
+.levelName{
+    font-size: 96px;
     text-decoration: none;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    font-size: 32px;
+}
+
+.nav ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navSec {
+    display: inline-block;
+}
+
+.navSec a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
 }
